@@ -1,0 +1,37 @@
+name: Fill Buffer queue
+
+on:
+  schedule:
+    - cron: "30 5 * * *"   # daily 05:30 UTC (07:30 Bucharest), before the 10:00 posts
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only print what would be queued"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: autopost
+  cancel-in-progress: false
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            autopost.py
+            schedule.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python autopost.py
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}

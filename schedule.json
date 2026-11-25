@@ -1,0 +1,457 @@
+[
+  {
+    "date": "2026-11-26",
+    "time": "10:00",
+    "week": "2026-W48",
+    "slug": "url-journey",
+    "video": "videos/url-journey.mp4",
+    "youtube": {
+      "title": "What Really Happens After You Type a URL?",
+      "description": "Follow a fresh HTTPS request from DNS lookup to a rendered page.\nSee where TCP, TLS and HTTP fit, plus how HTTP/3 changes the route.\nMusic: Prelude in C major, BWV 846 — Kimiko Ishizaka, CC0.\n#Shorts #Networking #DNS #HTTPS #TechExplained"
+    },
+    "tiktok": "You hit Enter. What happens before the page appears? Follow DNS, TCP, TLS and HTTP on a fresh connection.\n\nMusic: Prelude in C major, BWV 846 — Kimiko Ishizaka, CC0.\n\n#Networking #DNS #HTTPS #TechExplained",
+    "instagram": "From a URL to a rendered page, follow a fresh HTTPS request. HTTP/3 takes a different route through QUIC over UDP.\n\nMusic: Prelude in C major, BWV 846 — Kimiko Ishizaka, CC0.\n\n#Networking #DNS #HTTPS #TechExplained"
+  },
+  {
+    "date": "2026-11-27",
+    "time": "10:00",
+    "week": "2026-W48",
+    "slug": "tcp-handshake",
+    "video": "videos/tcp-handshake.mp4",
+    "youtube": {
+      "title": "Why TCP Needs Three Messages to Connect",
+      "description": "The URL journey showed where TCP fits. Now follow SYN, SYN-ACK and ACK.\nSee what each sequence number means and why the final ACK matters.\nMusic: Prelude in C-sharp minor, BWV 849 — Kimiko Ishizaka, CC0.\n#Shorts #TCP #Networking #TechExplained"
+    },
+    "tiktok": "Why does TCP need a third message? Follow the sequence numbers from SYN to ACK.\n\nMusic: Prelude in C-sharp minor, BWV 849 — Kimiko Ishizaka, CC0.\n\n#TCP #Networking #TechExplained",
+    "instagram": "Before the first request on a fresh TCP connection, three messages line up the client and server’s sequence numbers.\n\nMusic: Prelude in C-sharp minor, BWV 849 — Kimiko Ishizaka, CC0.\n\n#TCP #Networking #TechExplained"
+  },
+  {
+    "date": "2026-11-28",
+    "time": "10:00",
+    "week": "2026-W48",
+    "slug": "hash-avalanche",
+    "video": "videos/hash-avalanche.mp4",
+    "youtube": {
+      "title": "One Capital Letter Changed 125 Bits of a SHA-256 Hash",
+      "description": "Hash hello and Hello with SHA-256 and compare all 256 output bits.\nThen see how to use the full digest to check a download.\nMusic: Goldberg Variations, BWV 988: Aria — Kimiko Ishizaka, CC0.\n#Shorts #SHA256 #FileIntegrity #Cybersecurity #TechExplained"
+    },
+    "tiktok": "One capital letter flipped 125 of 256 bits in this SHA-256 example. See the difference, then use the same tool to check a file.\n\nMusic: Goldberg Variations, BWV 988: Aria — Kimiko Ishizaka, CC0.\n\n#SHA256 #FileIntegrity #Cybersecurity #TechExplained",
+    "instagram": "How much does a SHA-256 hash change when you capitalize one letter? In this example, 125 of 256 bits flip. See how to compare the full digest when you check a download.\n\nMusic: Goldberg Variations, BWV 988: Aria — Kimiko Ishizaka, CC0.\n\n#SHA256 #FileIntegrity #Cybersecurity #TechExplained"
+  },
+  {
+    "date": "2026-11-29",
+    "time": "10:00",
+    "week": "2026-W48",
+    "slug": "public-private-keys",
+    "video": "videos/public-private-keys.mp4",
+    "youtube": {
+      "title": "Public vs. Private Keys: Which One Do You Use?",
+      "description": "Which key encrypts, decrypts, signs or verifies?\nFollow Bob’s keys through a private message and a digital signature.\nMusic: Prelude in E-flat minor, BWV 853 — Kimiko Ishizaka, CC0.\n#Shorts #Cryptography #PublicKey #TechExplained"
+    },
+    "tiktok": "Sending Bob a secret? Encrypt with his public key. Checking Bob’s signature? Verify with his public key. Here’s where the private key comes in.\n\nMusic: Prelude in E-flat minor, BWV 853 — Kimiko Ishizaka, CC0.\n\n#Cryptography #PublicKey #TechExplained",
+    "instagram": "Public key to encrypt or verify. Private key to decrypt or sign. The key you choose depends on whose message or signature it is.\n\nMusic: Prelude in E-flat minor, BWV 853 — Kimiko Ishizaka, CC0.\n\n#Cryptography #PublicKey #TechExplained"
+  },
+  {
+    "date": "2026-11-30",
+    "time": "10:00",
+    "week": "2026-W48",
+    "slug": "subnet-24",
+    "video": "videos/subnet-24.mp4",
+    "youtube": {
+      "title": "What Does /24 Mean in an IPv4 Address?",
+      "description": "See what the 24 counts in 192.168.1.0/24.\nThen find the subnet mask, the usable range and the two reserved endpoints.\nMusic: Gymnopédie No. 1 — Robin Alciatore, public domain.\n#Shorts #Subnetting #IPv4 #Networking #TechExplained"
+    },
+    "tiktok": "What does /24 count? It leaves 8 host bits, giving this IPv4 subnet 256 addresses and 254 usable host addresses.\n\nMusic: Gymnopédie No. 1 — Robin Alciatore, public domain.\n\n#Subnetting #IPv4 #Networking #TechExplained",
+    "instagram": "The slash in 192.168.1.0/24 marks the split between network and host bits. Follow the bits to the usable address range.\n\nMusic: Gymnopédie No. 1 — Robin Alciatore, public domain.\n\n#Subnetting #IPv4 #Networking #TechExplained"
+  },
+  {
+    "date": "2026-12-01",
+    "time": "10:00",
+    "week": "2026-W48",
+    "slug": "git-commit-hash",
+    "video": "videos/git-commit-hash.mp4",
+    "youtube": {
+      "title": "Why One Letter Changes a Git Commit ID",
+      "description": "Watch two real Git commits get different IDs after a one-letter message edit.\nThe hash avalanche demo compared hello and Hello. This time, Git hashes the commit.\nMusic: Prelude in F minor, BWV 857 — Kimiko Ishizaka, CC0.\n#Shorts #Git #VersionControl #TechExplained"
+    },
+    "tiktok": "Same files, same parent, one capital letter in the commit message. Git gives the commit a different ID.\n\nMusic: Prelude in F minor, BWV 857 — Kimiko Ishizaka, CC0.\n\n#Git #VersionControl #TechExplained",
+    "instagram": "A Git commit ID fingerprints the commit object. Watch what happens when the message changes from draft to Draft.\n\nMusic: Prelude in F minor, BWV 857 — Kimiko Ishizaka, CC0.\n\n#Git #VersionControl #TechExplained"
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:00",
+    "week": "2026-W48",
+    "slug": "binary-search",
+    "video": "videos/binary-search.mp4",
+    "youtube": {
+      "title": "Find a Number Among a Million in 20 Checks",
+      "description": "Binary search can find a number in a million sorted items in at most 20 checks.\nSee it decide which half to keep in a small worked example.\nMusic: Prelude in B-flat minor, BWV 867 — Kimiko Ishizaka, CC0.\n#Shorts #BinarySearch #Algorithms #TechExplained"
+    },
+    "tiktok": "A million sorted items, at most 20 checks. Watch binary search shrink the list by checking the middle.\n\nMusic: Prelude in B-flat minor, BWV 867 — Kimiko Ishizaka, CC0.\n\n#BinarySearch #Algorithms #TechExplained",
+    "instagram": "Could you find one number in a million sorted items? Binary search checks the middle and keeps only the side that could contain it.\n\nMusic: Prelude in B-flat minor, BWV 867 — Kimiko Ishizaka, CC0.\n\n#BinarySearch #Algorithms #TechExplained"
+  },
+  {
+    "date": "2026-12-03",
+    "time": "10:00",
+    "week": "2026-W49",
+    "slug": "dns-records",
+    "video": "videos/dns-records.mp4",
+    "youtube": {
+      "title": "What Do A, AAAA, CNAME and MX Records Do?",
+      "description": "See four DNS record types in one example zone.\nA and AAAA give IP addresses, CNAME sets an alias, and MX tells senders where to deliver mail.\nMusic: Prelude in C minor, BWV 847 — Kimiko Ishizaka, CC0.\n#Shorts #DNS #Networking #TechExplained"
+    },
+    "tiktok": "A, AAAA, CNAME, MX. Follow one example domain to see what each DNS record points to.\n\nMusic: Prelude in C minor, BWV 847 — Kimiko Ishizaka, CC0.\n\n#DNS #Networking #TechExplained",
+    "instagram": "A gives an IPv4 address. AAAA gives an IPv6 address. CNAME points an alias at a name. MX names a mail exchanger.\n\nMusic: Prelude in C minor, BWV 847 — Kimiko Ishizaka, CC0.\n\n#DNS #Networking #TechExplained"
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:00",
+    "week": "2026-W49",
+    "slug": "ports",
+    "video": "videos/ports.mp4",
+    "youtube": {
+      "title": "What Is a Network Port?",
+      "description": "One server IP can host several services.\nFollow TCP ports 22, 80 and 443 to SSH, HTTP and HTTPS on the same example host.\nMusic: Prelude in C-sharp major, BWV 848 — Kimiko Ishizaka, CC0.\n#Shorts #Networking #TCP #TechExplained"
+    },
+    "tiktok": "One IP, three services. See how TCP ports 22, 80 and 443 distinguish SSH, HTTP and HTTPS.\n\nMusic: Prelude in C-sharp major, BWV 848 — Kimiko Ishizaka, CC0.\n\n#Networking #TCP #TechExplained",
+    "instagram": "A port number helps the transport layer deliver traffic to the right application. See three TCP ports on one host.\n\nMusic: Prelude in C-sharp major, BWV 848 — Kimiko Ishizaka, CC0.\n\n#Networking #TCP #TechExplained"
+  },
+  {
+    "date": "2026-12-05",
+    "time": "10:00",
+    "week": "2026-W49",
+    "slug": "home-nat",
+    "video": "videos/home-nat.mp4",
+    "youtube": {
+      "title": "How Do Home Devices Share One Public IPv4 Address?",
+      "description": "A home router can translate both the source address and port.\nFollow two TCP flows out and see how the router matches the replies.\nMusic: Prelude in D major, BWV 850 — Kimiko Ishizaka, CC0.\n#Shorts #NAT #IPv4 #Networking"
+    },
+    "tiktok": "Two devices, one public IPv4 address. Follow the port mappings that get each reply home.\n\nMusic: Prelude in D major, BWV 850 — Kimiko Ishizaka, CC0.\n\n#NAT #IPv4 #Networking",
+    "instagram": "Home NAT often uses port translation. The router records the mappings so replies reach the right private device.\n\nMusic: Prelude in D major, BWV 850 — Kimiko Ishizaka, CC0.\n\n#NAT #IPv4 #Networking"
+  },
+  {
+    "date": "2026-12-06",
+    "time": "10:00",
+    "week": "2026-W49",
+    "slug": "http-status-codes",
+    "video": "videos/http-status-codes.mp4",
+    "youtube": {
+      "title": "What Do HTTP Status Codes Mean?",
+      "description": "The first digit tells you the class of an HTTP response.\nSee all five classes with 100, 200, 301, 404 and 500 from one example server.\nMusic: Prelude in D minor, BWV 851 — Kimiko Ishizaka, CC0.\n#Shorts #HTTP #WebDevelopment #Networking"
+    },
+    "tiktok": "200, 301, 404, 500. The first digit tells you what sort of HTTP response you got.\n\nMusic: Prelude in D minor, BWV 851 — Kimiko Ishizaka, CC0.\n\n#HTTP #WebDevelopment #Networking",
+    "instagram": "Learn the five HTTP status classes with a browser, an example server and five responses.\n\nMusic: Prelude in D minor, BWV 851 — Kimiko Ishizaka, CC0.\n\n#HTTP #WebDevelopment #Networking"
+  },
+  {
+    "date": "2026-12-07",
+    "time": "10:00",
+    "week": "2026-W49",
+    "slug": "tcp-vs-udp",
+    "video": "videos/tcp-vs-udp.mp4",
+    "youtube": {
+      "title": "TCP vs. UDP: What Happens When Data Goes Missing?",
+      "description": "TCP delivers a reliable, ordered byte stream. UDP sends independent datagrams.\nSee what loss changes, then see how DNS, video calls and web traffic use the two transports.\nMusic: Prelude in E-flat major, BWV 852 — Kimiko Ishizaka, CC0.\n#Shorts #TCP #UDP #Networking"
+    },
+    "tiktok": "What changes when data goes missing? Watch TCP recover an ordered stream and see what UDP delivers.\n\nMusic: Prelude in E-flat major, BWV 852 — Kimiko Ishizaka, CC0.\n\n#TCP #UDP #Networking",
+    "instagram": "TCP retransmits missing bytes. UDP gives the app individual datagrams and leaves any recovery to higher layers.\n\nMusic: Prelude in E-flat major, BWV 852 — Kimiko Ishizaka, CC0.\n\n#TCP #UDP #Networking"
+  },
+  {
+    "date": "2026-12-08",
+    "time": "10:00",
+    "week": "2026-W49",
+    "slug": "ipv6-shortening",
+    "video": "videos/ipv6-shortening.mp4",
+    "youtube": {
+      "title": "How Do You Shorten an IPv6 Address?",
+      "description": "Start with eight groups of four hex digits and remove leading zeros.\nThen use :: once for the longest run of at least two all-zero groups.\nMusic: Prelude in E major, BWV 854 — Kimiko Ishizaka, CC0.\n#Shorts #IPv6 #Networking #TechExplained"
+    },
+    "tiktok": "Trim leading zeros. Use :: once for the longest run of two or more all-zero groups. If runs tie, choose the first.\n\nMusic: Prelude in E major, BWV 854 — Kimiko Ishizaka, CC0.\n\n#IPv6 #Networking #TechExplained",
+    "instagram": "Follow one IPv6 address from eight padded hex groups to its canonical short form, 2001:db8::42:0:7.\n\nMusic: Prelude in E major, BWV 854 — Kimiko Ishizaka, CC0.\n\n#IPv6 #Networking #TechExplained"
+  },
+  {
+    "date": "2026-12-09",
+    "time": "10:00",
+    "week": "2026-W49",
+    "slug": "ttl-traceroute",
+    "video": "videos/ttl-traceroute.mp4",
+    "youtube": {
+      "title": "How Does Traceroute Find Each Hop?",
+      "description": "Routers decrement IPv4 TTL and IPv6 Hop Limit as they forward packets.\nFollow three probes to see how ICMP Time Exceeded replies reveal the routers along a path.\nMusic: Prelude in E minor, BWV 855 — Kimiko Ishizaka, CC0.\n#Shorts #Traceroute #IPv4 #Networking"
+    },
+    "tiktok": "TTL 1, 2, 3. Each new probe can reach one more hop. Follow the ICMP replies that reveal the path.\n\nMusic: Prelude in E minor, BWV 855 — Kimiko Ishizaka, CC0.\n\n#Traceroute #IPv4 #Networking",
+    "instagram": "Traceroute starts with a small TTL and increases it. Routers that discard expired probes can reply with ICMP Time Exceeded.\n\nMusic: Prelude in E minor, BWV 855 — Kimiko Ishizaka, CC0.\n\n#Traceroute #IPv4 #Networking"
+  },
+  {
+    "date": "2026-12-10",
+    "time": "10:00",
+    "week": "2026-W50",
+    "slug": "password-salt",
+    "video": "videos/password-salt.mp4",
+    "youtube": {
+      "title": "Why Password Hashes Need a Salt",
+      "description": "Run the same demo password through Argon2id with two salts.\nStore the salt, cost settings and hash. Use a deliberately costly password hash.\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 2 — Kimiko Ishizaka, CC0.\n#Shorts #Security #PasswordHashing #TechExplained"
+    },
+    "tiktok": "Same demo password, two salts. The Argon2id hash prefixes are 2aedd0bf and 0c9385df.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 2 — Kimiko Ishizaka, CC0.\n\n#Security #PasswordHashing #TechExplained",
+    "instagram": "A fresh random salt for every hash makes attackers do separate guessing work for each salt.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 2 — Kimiko Ishizaka, CC0.\n\n#Security #PasswordHashing #TechExplained"
+  },
+  {
+    "date": "2026-12-11",
+    "time": "10:00",
+    "week": "2026-W50",
+    "slug": "https-padlock",
+    "video": "videos/https-padlock.mp4",
+    "youtube": {
+      "title": "What Does the HTTPS Padlock Mean?",
+      "description": "HTTPS encrypts traffic between your browser and the site.\nYour browser verifies the server’s certificate for the address you opened.\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 9 — Kimiko Ishizaka, CC0.\n#Shorts #Security #HTTPS #TechExplained"
+    },
+    "tiktok": "An HTTPS indicator tells you about the connection. Check the address before entering sensitive data.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 9 — Kimiko Ishizaka, CC0.\n\n#Security #HTTPS #TechExplained",
+    "instagram": "An encrypted connection can lead to a phishing site. Check the address and verify the request.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 9 — Kimiko Ishizaka, CC0.\n\n#Security #HTTPS #TechExplained"
+  },
+  {
+    "date": "2026-12-12",
+    "time": "10:00",
+    "week": "2026-W50",
+    "slug": "totp-codes",
+    "video": "videos/totp-codes.mp4",
+    "youtube": {
+      "title": "How Six-Digit Authenticator Codes Work",
+      "description": "A phone and server share a key. The clock supplies a counter that steps every 30 seconds.\nFollow one HMAC-SHA-1 example checked against RFC 6238.\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 13 — Kimiko Ishizaka, CC0.\n#Shorts #Cryptography #TOTP #TechExplained"
+    },
+    "tiktok": "Shared secret + 30-second time counter → HMAC → six digits. The app can generate the code offline.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 13 — Kimiko Ishizaka, CC0.\n\n#Cryptography #TOTP #TechExplained",
+    "instagram": "The RFC 6238 SHA-1 test at 59 seconds gives 287082 when formatted as a six-digit TOTP.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 13 — Kimiko Ishizaka, CC0.\n\n#Cryptography #TOTP #TechExplained"
+  },
+  {
+    "date": "2026-12-13",
+    "time": "10:00",
+    "week": "2026-W50",
+    "slug": "phishing-domains",
+    "video": "videos/phishing-domains.mp4",
+    "youtube": {
+      "title": "Which Domain Is This Link Really Going To?",
+      "description": "Read the hostname in https://example.com.login.example.net/account.\nThe hostname is under example.net. The example.com part is inside the subdomain.\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 15 — Kimiko Ishizaka, CC0.\n#Shorts #Security #Phishing #TechExplained"
+    },
+    "tiktok": "In example.com.login.example.net, start at the right of the hostname. The domain here is example.net.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 15 — Kimiko Ishizaka, CC0.\n\n#Security #Phishing #TechExplained",
+    "instagram": "Find the hostname before signing in. In this example the .net suffix leads you to example.net.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 15 — Kimiko Ishizaka, CC0.\n\n#Security #Phishing #TechExplained"
+  },
+  {
+    "date": "2026-12-14",
+    "time": "10:00",
+    "week": "2026-W50",
+    "slug": "sql-injection",
+    "video": "videos/sql-injection.mp4",
+    "youtube": {
+      "title": "Why SQL Parameters Matter",
+      "description": "An apostrophe in an ordinary name shows why concatenating input into SQL is brittle.\nA bound SQLite parameter keeps that name a single value.\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 21 — Kimiko Ishizaka, CC0.\n#Shorts #Security #SQLite #TechExplained"
+    },
+    "tiktok": "What happens when an ordinary surname contains an apostrophe? Bind the value with a placeholder.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 21 — Kimiko Ishizaka, CC0.\n\n#Security #SQLite #TechExplained",
+    "instagram": "In SQLite, use ? for the value and pass the data separately to execute().\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 21 — Kimiko Ishizaka, CC0.\n\n#Security #SQLite #TechExplained"
+  },
+  {
+    "date": "2026-12-15",
+    "time": "10:00",
+    "week": "2026-W50",
+    "slug": "password-length",
+    "video": "videos/password-length.mp4",
+    "youtube": {
+      "title": "Eight Random Characters or Five Random Words?",
+      "description": "Eight uniform draws from 95 printable ASCII characters give 52.56 bits.\nFive uniform draws from a 7,776-word Diceware list give 64.62 bits.\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 19 — Kimiko Ishizaka, CC0.\n#Shorts #Security #Passwords #TechExplained"
+    },
+    "tiktok": "8 characters picked randomly from 95 printable ASCII characters (including space) give 52.56 bits. 5 words picked randomly from EFF's 7,776-word list give 64.62 bits. Each pick is independent and equally likely.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 19 — Kimiko Ishizaka, CC0.\n\n#Security #Passwords #TechExplained",
+    "instagram": "Entropy depends on how you choose each character or word. These numbers assume independent uniform draws.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 19 — Kimiko Ishizaka, CC0.\n\n#Security #Passwords #TechExplained"
+  },
+  {
+    "date": "2026-12-16",
+    "time": "10:00",
+    "week": "2026-W50",
+    "slug": "diffie-hellman",
+    "video": "videos/diffie-hellman.mp4",
+    "youtube": {
+      "title": "How Diffie–Hellman Agrees on a Secret",
+      "description": "Alice and Bob send public values and each compute the same shared secret.\nFollow a tiny example with modulus 23 and generator 5.\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 25 — Kimiko Ishizaka, CC0.\n#Shorts #Cryptography #DiffieHellman #TechExplained"
+    },
+    "tiktok": "Alice sends 8. Bob sends 19. With their own private numbers, both compute 2.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 25 — Kimiko Ishizaka, CC0.\n\n#Cryptography #DiffieHellman #TechExplained",
+    "instagram": "A public exchange can establish a shared secret. This example uses tiny numbers to show the math.\n\nMusic: J. S. Bach, Goldberg Variations, BWV 988, Variation 25 — Kimiko Ishizaka, CC0.\n\n#Cryptography #DiffieHellman #TechExplained"
+  },
+  {
+    "date": "2026-12-17",
+    "time": "10:00",
+    "week": "2026-W51",
+    "slug": "big-o",
+    "video": "videos/big-o.mp4",
+    "youtube": {
+      "title": "Big O at a Million Items: 1 Step to 1 Trillion",
+      "description": "Compare four example operation counts at one million items.\nBig O describes how work grows as the input gets larger.\nMusic: Prelude in F major, BWV 856 — Kimiko Ishizaka, CC0.\n#Shorts #Algorithms #BigO #TechExplained"
+    },
+    "tiktok": "One input size, four growth rates. What takes 1 step and what takes a trillion?\n\nMusic: Prelude in F major, BWV 856 — Kimiko Ishizaka, CC0.\n\n#Algorithms #BigO #TechExplained",
+    "instagram": "Watch the step counts for one access, repeated halving, one pass and all ordered pairs.\n\nMusic: Prelude in F major, BWV 856 — Kimiko Ishizaka, CC0.\n\n#Algorithms #BigO #TechExplained"
+  },
+  {
+    "date": "2026-12-18",
+    "time": "10:00",
+    "week": "2026-W51",
+    "slug": "float-0-1",
+    "video": "videos/float-0-1.mp4",
+    "youtube": {
+      "title": "Why Python Prints 0.30000000000000004",
+      "description": "Python’s binary64 floats approximate 0.1 and 0.2.\nSee the result, then try math.isclose or Decimal values made from strings.\nMusic: Prelude in F-sharp major, BWV 858 — Kimiko Ishizaka, CC0.\n#Shorts #Python #FloatingPoint #TechExplained"
+    },
+    "tiktok": "Try 0.1 + 0.2 in Python. Here’s where the extra digits come from.\n\nMusic: Prelude in F-sharp major, BWV 858 — Kimiko Ishizaka, CC0.\n\n#Python #FloatingPoint #TechExplained",
+    "instagram": "The float sum and the float literal 0.3 are one representable value apart. Use a tolerance or decimal arithmetic, depending on the task.\n\nMusic: Prelude in F-sharp major, BWV 858 — Kimiko Ishizaka, CC0.\n\n#Python #FloatingPoint #TechExplained"
+  },
+  {
+    "date": "2026-12-19",
+    "time": "10:00",
+    "week": "2026-W51",
+    "slug": "call-stack",
+    "video": "videos/call-stack.mp4",
+    "youtube": {
+      "title": "Watch factorial(3) Use the Call Stack",
+      "description": "Follow three calls as Python adds and removes their frames.\nThe base case returns 1, then the waiting calls return 2 and 6.\nMusic: Prelude in F-sharp minor, BWV 859 — Kimiko Ishizaka, CC0.\n#Shorts #Python #Recursion #TechExplained"
+    },
+    "tiktok": "Why does factorial(3) need three frames? Watch factorial(3) and factorial(2) wait while factorial(1) returns right away.\n\nMusic: Prelude in F-sharp minor, BWV 859 — Kimiko Ishizaka, CC0.\n\n#Python #Recursion #TechExplained",
+    "instagram": "Follow factorial(3) down to its base case, then watch the stack unwind as Python returns 1, 2 and 6.\n\nMusic: Prelude in F-sharp minor, BWV 859 — Kimiko Ishizaka, CC0.\n\n#Python #Recursion #TechExplained"
+  },
+  {
+    "date": "2026-12-20",
+    "time": "10:00",
+    "week": "2026-W51",
+    "slug": "hash-table",
+    "video": "videos/hash-table.mp4",
+    "youtube": {
+      "title": "How a Hash Table Finds a Key",
+      "description": "Hash a key, pick a bucket, then compare the key with the entries in that bucket.\nLookups average O(1) with a good hash and a table that isn’t overloaded.\nMusic: Fugue in G major, BWV 860 — Kimiko Ishizaka, CC0.\n#Shorts #Algorithms #HashTable #TechExplained"
+    },
+    "tiktok": "A and E land in the same bucket in this tiny table. Watch it find the right value anyway.\n\nMusic: Fugue in G major, BWV 860 — Kimiko Ishizaka, CC0.\n\n#Algorithms #HashTable #TechExplained",
+    "instagram": "A toy hash sends two keys to one bucket. Separate chaining keeps both key–value pairs so a lookup can still find the right one.\n\nMusic: Fugue in G major, BWV 860 — Kimiko Ishizaka, CC0.\n\n#Algorithms #HashTable #TechExplained"
+  },
+  {
+    "date": "2026-12-21",
+    "time": "10:00",
+    "week": "2026-W51",
+    "slug": "regex-basics",
+    "video": "videos/regex-basics.mp4",
+    "youtube": {
+      "title": "Read a Date Regex One Piece at a Time",
+      "description": "Break the pattern into anchors, digit counts and literal hyphens.\nPython re.fullmatch checks that the whole string fits this shape.\nMusic: Prelude in G minor, BWV 861 — Kimiko Ishizaka, CC0.\n#Shorts #Regex #Python #TechExplained"
+    },
+    "tiktok": "Why would a date regex match 2026-99-99? Watch what the pattern actually checks.\n\nMusic: Prelude in G minor, BWV 861 — Kimiko Ishizaka, CC0.\n\n#Regex #Python #TechExplained",
+    "instagram": "Four digits, then two, then two, with hyphens between. This regex checks the shape. Use date parsing to validate the calendar date.\n\nMusic: Prelude in G minor, BWV 861 — Kimiko Ishizaka, CC0.\n\n#Regex #Python #TechExplained"
+  },
+  {
+    "date": "2026-12-22",
+    "time": "10:00",
+    "week": "2026-W51",
+    "slug": "git-branch-pointer",
+    "video": "videos/git-branch-pointer.mp4",
+    "youtube": {
+      "title": "What Moves When You Commit on a Git Branch?",
+      "description": "A Git branch names a commit, and a new commit moves the current branch.\nFollow two real IDs and see what the loose main ref stores.\nMusic: Prelude in A-flat major, BWV 862 — Kimiko Ishizaka, CC0.\n#Shorts #Git #VersionControl #TechExplained"
+    },
+    "tiktok": "One commit later, main points somewhere new. Watch the Git ref follow the new commit.\n\nMusic: Prelude in A-flat major, BWV 862 — Kimiko Ishizaka, CC0.\n\n#Git #VersionControl #TechExplained",
+    "instagram": "A branch is a movable pointer. In this loose-ref example, the main file stores the real ID of the commit at the tip.\n\nMusic: Prelude in A-flat major, BWV 862 — Kimiko Ishizaka, CC0.\n\n#Git #VersionControl #TechExplained"
+  },
+  {
+    "date": "2026-12-23",
+    "time": "10:00",
+    "week": "2026-W51",
+    "slug": "utf8-bytes",
+    "video": "videos/utf8-bytes.mp4",
+    "youtube": {
+      "title": "How Many Bytes Does UTF-8 Use?",
+      "description": "UTF-8 uses one to four bytes per Unicode scalar value (a code point outside the surrogate range).\nSee the actual hex bytes for A, é, €, and the grinning face code point U+1F600.\nMusic: Prelude in G-sharp minor, BWV 863 — Kimiko Ishizaka, CC0.\n#Shorts #Unicode #UTF8 #TechExplained"
+    },
+    "tiktok": "A uses one byte. The grinning face code point takes four. See the exact UTF-8 bytes.\n\nMusic: Prelude in G-sharp minor, BWV 863 — Kimiko Ishizaka, CC0.\n\n#Unicode #UTF8 #TechExplained",
+    "instagram": "From 41 to F0 9F 98 80, see how four Unicode code points become bytes in UTF-8.\n\nMusic: Prelude in G-sharp minor, BWV 863 — Kimiko Ishizaka, CC0.\n\n#Unicode #UTF8 #TechExplained"
+  },
+  {
+    "date": "2026-12-24",
+    "time": "10:00",
+    "week": "2026-W52",
+    "slug": "binary-counting",
+    "video": "videos/binary-counting.mp4",
+    "youtube": {
+      "title": "How Binary Counting Works in 45 Seconds",
+      "description": "Binary uses two digits, 0 and 1.\nSee how binary place values work and why 8 bits give 256 values.\nMusic: Prelude in B-flat major, BWV 866 — Kimiko Ishizaka, CC0.\n#Shorts #Binary #ComputerScience #Coding #TechExplained"
+    },
+    "tiktok": "Only 0 and 1! Here is how binary place values work: 1, 2, 4, 8 and why 8 bits give 256 values.\n\nMusic: Prelude in B-flat major, BWV 866 — Kimiko Ishizaka, CC0.\n\n#Binary #ComputerScience #Coding #TechExplained",
+    "instagram": "How do computers count using only 0 and 1? Each bit position doubles in value: 1, 2, 4, 8.\n\nMusic: Prelude in B-flat major, BWV 866 — Kimiko Ishizaka, CC0.\n\n#Binary #ComputerScience #Coding #TechExplained"
+  },
+  {
+    "date": "2026-12-25",
+    "time": "10:00",
+    "week": "2026-W52",
+    "slug": "hex-colors",
+    "video": "videos/hex-colors.mp4",
+    "youtube": {
+      "title": "How Hex Color Codes Work in 45 Seconds",
+      "description": "Ever wondered what #7C3AED means in CSS?\nSee how each pair is one byte 00–FF and converts to rgb(124, 58, 237).\nMusic: Prelude in A minor, BWV 865 — Kimiko Ishizaka, CC0.\n#Shorts #CSS #WebDevelopment #Design #TechExplained"
+    },
+    "tiktok": "What does #7C3AED mean? Each pair is one byte in base 16: 124 Red, 58 Green, 237 Blue.\n\nMusic: Prelude in A minor, BWV 865 — Kimiko Ishizaka, CC0.\n\n#CSS #WebDevelopment #Design #TechExplained",
+    "instagram": "How do hex colors work? #7C3AED packs three byte values into base 16: rgb(124, 58, 237).\n\nMusic: Prelude in A minor, BWV 865 — Kimiko Ishizaka, CC0.\n\n#CSS #WebDevelopment #Design #TechExplained"
+  },
+  {
+    "date": "2026-12-26",
+    "time": "10:00",
+    "week": "2026-W52",
+    "slug": "twos-complement",
+    "video": "videos/twos-complement.mp4",
+    "youtube": {
+      "title": "How Computers Store Negative Numbers in 45 Seconds",
+      "description": "Two’s complement is a way to encode signed integers in bits.\nSee why −1 is 11111111 in eight bits and how 5 + (−5) gives zero.\nMusic: Prelude in A major, BWV 864 — Kimiko Ishizaka, CC0.\n#Shorts #ComputerScience #Binary #Coding #TechExplained"
+    },
+    "tiktok": "Watch 5 and −5 cancel out in 8-bit two’s complement.\n\nMusic: Prelude in A major, BWV 864 — Kimiko Ishizaka, CC0.\n\n#ComputerScience #Binary #Coding #TechExplained",
+    "instagram": "To get −5 in eight-bit two’s complement, flip the bits of +5 and add 1.\n\nMusic: Prelude in A major, BWV 864 — Kimiko Ishizaka, CC0.\n\n#ComputerScience #Binary #Coding #TechExplained"
+  },
+  {
+    "date": "2026-12-27",
+    "time": "10:00",
+    "week": "2026-W52",
+    "slug": "unix-time",
+    "video": "videos/unix-time.mp4",
+    "youtube": {
+      "title": "The Year 2038 Problem and Unix Time Explained",
+      "description": "Unix time counts seconds since 1970-01-01 00:00:00 UTC.\nSee the last UTC second that fits in a signed 32-bit timestamp.\nMusic: Nocturne in F minor, Op. 55 no. 1 — Luke Faulkner, CC0.\n#Shorts #Linux #Programming #ComputerScience #TechExplained"
+    },
+    "tiktok": "Signed 32-bit Unix time has a limit. Timestamp 2147483647 is 2038-01-19 03:14:07 UTC.\n\nMusic: Nocturne in F minor, Op. 55 no. 1 — Luke Faulkner, CC0.\n\n#Linux #Programming #ComputerScience #TechExplained",
+    "instagram": "Unix time counts seconds from the 1970 epoch. On 19 Jan 2038, the timestamp stops fitting in a signed 32-bit integer.\n\nMusic: Nocturne in F minor, Op. 55 no. 1 — Luke Faulkner, CC0.\n\n#Linux #Programming #ComputerScience #TechExplained"
+  },
+  {
+    "date": "2026-12-28",
+    "time": "10:00",
+    "week": "2026-W52",
+    "slug": "kb-vs-kib",
+    "video": "videos/kb-vs-kib.mp4",
+    "youtube": {
+      "title": "Why a 1 TB Drive Can Show About 931 GiB",
+      "description": "A kilobyte is 1,000 bytes. A kibibyte is 1,024 bytes.\nConvert a 1 TB drive’s capacity to binary units and get about 931 GiB.\nMusic: Prelude in B major, BWV 868 — Kimiko Ishizaka, CC0.\n#Shorts #ComputerScience #DataStorage #TechExplained"
+    },
+    "tiktok": "Why can a 1 TB drive show about 931 GiB? Both figures describe the same byte count.\n\nMusic: Prelude in B major, BWV 868 — Kimiko Ishizaka, CC0.\n\n#ComputerScience #DataStorage #TechExplained",
+    "instagram": "kB and KiB count different numbers of bytes. The same unit difference explains why 1 TB is about 931 GiB.\n\nMusic: Prelude in B major, BWV 868 — Kimiko Ishizaka, CC0.\n\n#ComputerScience #DataStorage #TechExplained"
+  },
+  {
+    "date": "2026-12-29",
+    "time": "10:00",
+    "week": "2026-W52",
+    "slug": "file-permissions",
+    "video": "videos/file-permissions.mp4",
+    "youtube": {
+      "title": "What Do chmod 755 and chmod 644 Mean?",
+      "description": "Read, write, and execute permissions become octal digits.\nSee what 755 and 644 do to a regular file and check the results with stat.\nMusic: Prelude in B minor, BWV 869 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #Unix #TechExplained"
+    },
+    "tiktok": "What does chmod 755 mean? Read, write, and execute have values 4, 2, and 1. Add them separately for owner, group, and others.\n\nMusic: Prelude in B minor, BWV 869 — Kimiko Ishizaka, CC0.\n\n#Linux #Unix #TechExplained",
+    "instagram": "The digits in chmod 644 stand for three permission groups. See how they compare with 755 on the same file.\n\nMusic: Prelude in B minor, BWV 869 — Kimiko Ishizaka, CC0.\n\n#Linux #Unix #TechExplained"
+  },
+  {
+    "date": "2026-12-30",
+    "time": "10:00",
+    "week": "2026-W52",
+    "slug": "base64",
+    "video": "videos/base64.mp4",
+    "youtube": {
+      "title": "How Base64 Turns Man into TWFu",
+      "description": "A complete group of three bytes becomes four Base64 characters.\nFollow the bits from Man to TWFu and see why decoding needs no key.\nMusic: Nocturne in E minor, Op. posth. 72 no. 1 — Luke Faulkner, CC0.\n#Shorts #Base64 #ComputerScience #TechExplained"
+    },
+    "tiktok": "Three bytes, four characters. Watch Base64 turn Man into TWFu, then decode it back without a key.\n\nMusic: Nocturne in E minor, Op. posth. 72 no. 1 — Luke Faulkner, CC0.\n\n#Base64 #ComputerScience #TechExplained",
+    "instagram": "How does Base64 turn Man into TWFu? It splits 24 bits into four groups of six and looks up each group.\n\nMusic: Nocturne in E minor, Op. posth. 72 no. 1 — Luke Faulkner, CC0.\n\n#Base64 #ComputerScience #TechExplained"
+  }
+]
