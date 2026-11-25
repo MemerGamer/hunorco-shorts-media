@@ -453,5 +453,460 @@
     },
     "tiktok": "Three bytes, four characters. Watch Base64 turn Man into TWFu, then decode it back without a key.\n\nMusic: Nocturne in E minor, Op. posth. 72 no. 1 — Luke Faulkner, CC0.\n\n#Base64 #ComputerScience #TechExplained",
     "instagram": "How does Base64 turn Man into TWFu? It splits 24 bits into four groups of six and looks up each group.\n\nMusic: Nocturne in E minor, Op. posth. 72 no. 1 — Luke Faulkner, CC0.\n\n#Base64 #ComputerScience #TechExplained"
+  },
+  {
+    "date": "2026-12-31",
+    "time": "10:00",
+    "week": "2027-W01",
+    "slug": "linux-pipe",
+    "video": "videos/linux-pipe.mp4",
+    "youtube": {
+      "title": "What Does the Pipe in a Linux Command Do?",
+      "description": "The shell pipe connects one program's standard output to the next program's standard input.\nFollow four lines of text through sort and uniq. Standard error skips the pipe by default.\nMusic: Goldberg Variations, BWV 988: Variatio 3 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #CommandLine #Bash"
+    },
+    "tiktok": "One character, two programs. Watch four lines of text go through a Linux pipe.\n\nMusic: Goldberg Variations, BWV 988: Variatio 3 — Kimiko Ishizaka, CC0.\n\n#Linux #CommandLine #Bash #LearnToCode",
+    "instagram": "A pipe sends one program's output straight into the next one. The programs run side by side.\n\nMusic: Goldberg Variations, BWV 988: Variatio 3 — Kimiko Ishizaka, CC0.\n\n#Linux #CommandLine #Bash #LearnToCode"
+  },
+  {
+    "date": "2027-01-01",
+    "time": "10:00",
+    "week": "2027-W01",
+    "slug": "linux-process-tree",
+    "video": "videos/linux-process-tree.mp4",
+    "youtube": {
+      "title": "Every Linux Process Has a Parent (Almost)",
+      "description": "See PIDs, parent PIDs, fork and exec, and what a zombie process really is.\nAn orphan is adopted by PID 1 or by a nearer process called a subreaper.\nMusic: Goldberg Variations, BWV 988: Variatio 7 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #OperatingSystems #Processes"
+    },
+    "tiktok": "Linux processes form a family tree. What happens when a parent exits first?\n\nMusic: Goldberg Variations, BWV 988: Variatio 7 — Kimiko Ishizaka, CC0.\n\n#Linux #OperatingSystems #Processes #LearnIT",
+    "instagram": "PIDs, fork, exec, zombies and orphans in one small process tree.\n\nMusic: Goldberg Variations, BWV 988: Variatio 7 — Kimiko Ishizaka, CC0.\n\n#Linux #OperatingSystems #Processes #LearnIT"
+  },
+  {
+    "date": "2027-01-02",
+    "time": "10:00",
+    "week": "2027-W01",
+    "slug": "linux-env-vars",
+    "video": "videos/linux-env-vars.mp4",
+    "youtube": {
+      "title": "Why Can't My Program See That Shell Variable?",
+      "description": "A shell variable reaches child programs only when it is in their environment.\nSee export, one-command variables, and why a child cannot change its parent's copy.\nMusic: Goldberg Variations, BWV 988: Variatio 10 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #Bash #Programming"
+    },
+    "tiktok": "You set a variable but your program can't see it. The missing word may be export.\n\nMusic: Goldberg Variations, BWV 988: Variatio 10 — Kimiko Ishizaka, CC0.\n\n#Linux #Bash #Programming #LearnToCode",
+    "instagram": "Shell variables, export, and the one-way trip from parent to child.\n\nMusic: Goldberg Variations, BWV 988: Variatio 10 — Kimiko Ishizaka, CC0.\n\n#Linux #Bash #Programming #LearnToCode"
+  },
+  {
+    "date": "2027-01-03",
+    "time": "10:00",
+    "week": "2027-W01",
+    "slug": "linux-signals",
+    "video": "videos/linux-signals.mp4",
+    "youtube": {
+      "title": "kill vs kill -9: What Is the Difference?",
+      "description": "Plain kill sends SIGTERM, which a program can handle to clean up. It can also ignore it.\nSIGKILL cannot be caught or ignored, so try SIGTERM first. Special cases include PID 1.\nMusic: Goldberg Variations, BWV 988: Variatio 12 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #DevOps #CommandLine"
+    },
+    "tiktok": "Reaching for kill -9 first? Your program gets no chance to clean up.\n\nMusic: Goldberg Variations, BWV 988: Variatio 12 — Kimiko Ishizaka, CC0.\n\n#Linux #DevOps #CommandLine #LearnIT",
+    "instagram": "SIGTERM asks. SIGKILL cannot be caught. Know the difference before you stop a process.\n\nMusic: Goldberg Variations, BWV 988: Variatio 12 — Kimiko Ishizaka, CC0.\n\n#Linux #DevOps #CommandLine #LearnIT"
+  },
+  {
+    "date": "2027-01-04",
+    "time": "10:00",
+    "week": "2027-W01",
+    "slug": "linux-cron",
+    "video": "videos/linux-cron.mp4",
+    "youtube": {
+      "title": "How to Read a Cron Schedule",
+      "description": "Read the five fields in a user crontab, including a Monday 09:00 job.\nLearn why a minute step of 40 runs at :00 and :40, and why cron is not your terminal.\nMusic: Goldberg Variations, BWV 988: Variatio 18 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #Cron #DevOps"
+    },
+    "tiktok": "Five fields run your scheduled jobs. And */40 does not mean every 40 minutes.\n\nMusic: Goldberg Variations, BWV 988: Variatio 18 — Kimiko Ishizaka, CC0.\n\n#Linux #Cron #DevOps #LearnIT",
+    "instagram": "Read a crontab line field by field, then avoid two common surprises.\n\nMusic: Goldberg Variations, BWV 988: Variatio 18 — Kimiko Ishizaka, CC0.\n\n#Linux #Cron #DevOps #LearnIT"
+  },
+  {
+    "date": "2027-01-05",
+    "time": "10:00",
+    "week": "2027-W01",
+    "slug": "linux-stdin-redirect",
+    "video": "videos/linux-stdin-redirect.mp4",
+    "youtube": {
+      "title": "Shell Redirects: Write, Append and Read Files",
+      "description": "See the shell's three basic redirect symbols write a file, append to it and feed it to a command.\nAlso see why sorting a file back onto itself with a redirect leaves it empty.\nMusic: Goldberg Variations, BWV 988: Variatio 22 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #Bash #CommandLine"
+    },
+    "tiktok": "One missing character can erase your file. See what >, >> and < do.\n\nMusic: Goldberg Variations, BWV 988: Variatio 22 — Kimiko Ishizaka, CC0.\n\n#Linux #Bash #CommandLine #LearnIT",
+    "instagram": "Write, append, read: shell redirects with one trap to remember.\n\nMusic: Goldberg Variations, BWV 988: Variatio 22 — Kimiko Ishizaka, CC0.\n\n#Linux #Bash #CommandLine #LearnIT"
+  },
+  {
+    "date": "2027-01-06",
+    "time": "10:00",
+    "week": "2027-W01",
+    "slug": "linux-awk-basics",
+    "video": "videos/linux-awk-basics.mp4",
+    "youtube": {
+      "title": "awk Basics: Pull Columns From a Log File",
+      "description": "Use awk to split lines into fields, print columns, filter by a value and add up numbers.\nThe example log is simplified; real log formats and quoted CSV need more care.\nMusic: Goldberg Variations, BWV 988: Variatio 24 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #Awk #CommandLine"
+    },
+    "tiktok": "Pull a column, filter a line, add up numbers: three small awk commands.\n\nMusic: Goldberg Variations, BWV 988: Variatio 24 — Kimiko Ishizaka, CC0.\n\n#Linux #Awk #CommandLine #LearnToCode",
+    "instagram": "awk basics on a four-line example log.\n\nMusic: Goldberg Variations, BWV 988: Variatio 24 — Kimiko Ishizaka, CC0.\n\n#Linux #Awk #CommandLine #LearnToCode"
+  },
+  {
+    "date": "2027-01-07",
+    "time": "10:00",
+    "week": "2027-W02",
+    "slug": "http2-multiplexing",
+    "video": "videos/http2-multiplexing.mp4",
+    "youtube": {
+      "title": "HTTP/2: Many Requests Over One Connection",
+      "description": "HTTP/2 lets many requests and responses share one connection as separate streams.\nTCP can still stall all of them after a lost packet. HTTP/3 uses QUIC to address that.\nMusic: WTC Book 1: Fugue No. 1 in C major, BWV 846 — Kimiko Ishizaka, CC0.\n#Shorts #WebDevelopment #HTTP2 #Networking"
+    },
+    "tiktok": "Eight files, how many connections? See what HTTP/2 changes, and the one problem TCP still has.\n\nMusic: WTC Book 1: Fugue No. 1 in C major, BWV 846 — Kimiko Ishizaka, CC0.\n\n#WebDevelopment #HTTP2 #Networking #LearnIT",
+    "instagram": "HTTP/1.1 browsers use several connections. HTTP/2 can mix many requests on one.\n\nMusic: WTC Book 1: Fugue No. 1 in C major, BWV 846 — Kimiko Ishizaka, CC0.\n\n#WebDevelopment #HTTP2 #Networking #LearnIT"
+  },
+  {
+    "date": "2027-01-08",
+    "time": "10:00",
+    "week": "2027-W02",
+    "slug": "websocket-handshake",
+    "video": "videos/websocket-handshake.mp4",
+    "youtube": {
+      "title": "How a WebSocket Connection Starts",
+      "description": "Over HTTP/1.1, a WebSocket begins with an Upgrade request and a 101 response.\nAfter that, client and server can both send messages on the same connection. Use wss for TLS.\nMusic: WTC Book 1: Fugue No. 2 in C minor, BWV 847 — Kimiko Ishizaka, CC0.\n#Shorts #WebSockets #WebDevelopment #Networking"
+    },
+    "tiktok": "A WebSocket starts life as an HTTP request. Follow the handshake to a two-way channel.\n\nMusic: WTC Book 1: Fugue No. 2 in C minor, BWV 847 — Kimiko Ishizaka, CC0.\n\n#WebSockets #WebDevelopment #Networking #LearnToCode",
+    "instagram": "Upgrade, 101, then messages in both directions. This is the classic WebSocket handshake.\n\nMusic: WTC Book 1: Fugue No. 2 in C minor, BWV 847 — Kimiko Ishizaka, CC0.\n\n#WebSockets #WebDevelopment #Networking #LearnToCode"
+  },
+  {
+    "date": "2027-01-09",
+    "time": "10:00",
+    "week": "2027-W02",
+    "slug": "browser-cache",
+    "video": "videos/browser-cache.mp4",
+    "youtube": {
+      "title": "When Does Your Browser Reuse a Cached File?",
+      "description": "Follow one stylesheet through max-age, ETag and a 304 Not Modified response.\nno-cache means check before reuse. no-store means do not store. Without rules, a browser may still guess a lifetime.\nMusic: WTC Book 1: Fugue No. 5 in D major, BWV 850 — Kimiko Ishizaka, CC0.\n#Shorts #WebDevelopment #HTTP #Caching"
+    },
+    "tiktok": "no-cache does not mean \"don't cache\". Follow one file through the browser cache.\n\nMusic: WTC Book 1: Fugue No. 5 in D major, BWV 850 — Kimiko Ishizaka, CC0.\n\n#WebDevelopment #HTTP #Caching #LearnToCode",
+    "instagram": "Fresh, stale, 304 or new: how a browser decides what to do with a saved file.\n\nMusic: WTC Book 1: Fugue No. 5 in D major, BWV 850 — Kimiko Ishizaka, CC0.\n\n#WebDevelopment #HTTP #Caching #LearnToCode"
+  },
+  {
+    "date": "2027-01-10",
+    "time": "10:00",
+    "week": "2027-W02",
+    "slug": "cors-basics",
+    "video": "videos/cors-basics.mp4",
+    "youtube": {
+      "title": "CORS: Who Gets to Read the Response?",
+      "description": "CORS lets a server say which other origins may read its responses in a browser.\nSome requests are checked first with OPTIONS. CORS is not login, access control or CSRF protection.\nMusic: WTC Book 1: Fugue No. 9 in E major, BWV 854 — Kimiko Ishizaka, CC0.\n#Shorts #WebDevelopment #CORS #JavaScript"
+    },
+    "tiktok": "Your API got the request, but JavaScript cannot read the answer. That can be CORS.\n\nMusic: WTC Book 1: Fugue No. 9 in E major, BWV 854 — Kimiko Ishizaka, CC0.\n\n#WebDevelopment #CORS #JavaScript #LearnToCode",
+    "instagram": "Origins, the allow header and the OPTIONS preflight: CORS in one example.\n\nMusic: WTC Book 1: Fugue No. 9 in E major, BWV 854 — Kimiko Ishizaka, CC0.\n\n#WebDevelopment #CORS #JavaScript #LearnToCode"
+  },
+  {
+    "date": "2027-01-11",
+    "time": "10:00",
+    "week": "2027-W02",
+    "slug": "sql-index",
+    "video": "videos/sql-index.mp4",
+    "youtube": {
+      "title": "What Does a Database Index Actually Do?",
+      "description": "One million rows, one email: compare a table scan with an index search in SQLite.\nIndexes take space and add write work, and the database does not always use them.\nMusic: WTC Book 1: Fugue No. 11 in F major, BWV 856 — Kimiko Ishizaka, CC0.\n#Shorts #SQL #Databases #Programming"
+    },
+    "tiktok": "One million rows and one email to find. Watch what an index changes.\n\nMusic: WTC Book 1: Fugue No. 11 in F major, BWV 856 — Kimiko Ishizaka, CC0.\n\n#SQL #Databases #Programming #LearnToCode",
+    "instagram": "A database index is a sorted lookup structure. It speeds up the right queries and has a price.\n\nMusic: WTC Book 1: Fugue No. 11 in F major, BWV 856 — Kimiko Ishizaka, CC0.\n\n#SQL #Databases #Programming #LearnToCode"
+  },
+  {
+    "date": "2027-01-12",
+    "time": "10:00",
+    "week": "2027-W02",
+    "slug": "sql-transactions",
+    "video": "videos/sql-transactions.mp4",
+    "youtube": {
+      "title": "SQL Transactions: Why You Need ROLLBACK",
+      "description": "A transaction makes related changes commit together or not at all, when your code handles errors correctly.\nSee a transfer, a rollback, and why a failed statement does not undo everything in every database.\nMusic: WTC Book 1: Fugue No. 16 in G minor, BWV 861 — Kimiko Ishizaka, CC0.\n#Shorts #SQL #Databases #Programming"
+    },
+    "tiktok": "One UPDATE worked, the next one failed. What happens if your code still commits?\n\nMusic: WTC Book 1: Fugue No. 16 in G minor, BWV 861 — Kimiko Ishizaka, CC0.\n\n#SQL #Databases #Programming #LearnToCode",
+    "instagram": "BEGIN, COMMIT and ROLLBACK, shown with one small transfer between two accounts.\n\nMusic: WTC Book 1: Fugue No. 16 in G minor, BWV 861 — Kimiko Ishizaka, CC0.\n\n#SQL #Databases #Programming #LearnToCode"
+  },
+  {
+    "date": "2027-01-13",
+    "time": "10:00",
+    "week": "2027-W02",
+    "slug": "sql-joins",
+    "video": "videos/sql-joins.mp4",
+    "youtube": {
+      "title": "INNER JOIN vs LEFT JOIN With Three Users",
+      "description": "INNER JOIN keeps matching rows. LEFT JOIN also keeps left rows that have no match.\nSee why a WHERE filter on the right table can remove those rows again.\nMusic: WTC Book 1: Fugue No. 19 in A major, BWV 864 — Kimiko Ishizaka, CC0.\n#Shorts #SQL #Databases #Programming"
+    },
+    "tiktok": "Where did the third user go? INNER JOIN and LEFT JOIN with three users.\n\nMusic: WTC Book 1: Fugue No. 19 in A major, BWV 864 — Kimiko Ishizaka, CC0.\n\n#SQL #Databases #Programming #LearnToCode",
+    "instagram": "Two joins, three users, and one WHERE clause that can surprise you.\n\nMusic: WTC Book 1: Fugue No. 19 in A major, BWV 864 — Kimiko Ishizaka, CC0.\n\n#SQL #Databases #Programming #LearnToCode"
+  },
+  {
+    "date": "2027-01-14",
+    "time": "10:00",
+    "week": "2027-W03",
+    "slug": "docker-layers",
+    "video": "videos/docker-layers.mp4",
+    "youtube": {
+      "title": "Why Can a Docker Rebuild Skip Steps?",
+      "description": "Docker images are built from layers, and the build cache can reuse unchanged steps.\nChange an earlier instruction and the steps after it run again. Put things that change often near the end.\nMusic: WTC Book 1: Fugue No. 3 in C-sharp major, BWV 848 — Kimiko Ishizaka, CC0.\n#Shorts #Docker #DevOps #Containers"
+    },
+    "tiktok": "One edited file, and Docker skips the earlier step. Here is how the layer cache works.\n\nMusic: WTC Book 1: Fugue No. 3 in C-sharp major, BWV 848 — Kimiko Ishizaka, CC0.\n\n#Docker #DevOps #Containers #LearnToCode",
+    "instagram": "The order of lines in a Dockerfile can decide how much work a rebuild does.\n\nMusic: WTC Book 1: Fugue No. 3 in C-sharp major, BWV 848 — Kimiko Ishizaka, CC0.\n\n#Docker #DevOps #Containers #LearnToCode"
+  },
+  {
+    "date": "2027-01-15",
+    "time": "10:00",
+    "week": "2027-W03",
+    "slug": "container-namespaces",
+    "video": "videos/container-namespaces.mp4",
+    "youtube": {
+      "title": "Linux Namespaces: What a Container Sees",
+      "description": "Linux namespaces give a group of processes its own view of things like process IDs, network ports and the hostname.\nContainers on one Linux machine still share its kernel. Docker adds other protections besides namespaces.\nMusic: WTC Book 1: Fugue No. 6 in D minor, BWV 851 — Kimiko Ishizaka, CC0.\n#Shorts #Linux #Containers #Docker"
+    },
+    "tiktok": "The same process is PID 1 inside a container and another number outside. Linux namespaces explain it.\n\nMusic: WTC Book 1: Fugue No. 6 in D minor, BWV 851 — Kimiko Ishizaka, CC0.\n\n#Linux #Containers #Docker #LearnIT",
+    "instagram": "Own process IDs, own ports, own hostname, one shared kernel.\n\nMusic: WTC Book 1: Fugue No. 6 in D minor, BWV 851 — Kimiko Ishizaka, CC0.\n\n#Linux #Containers #Docker #LearnIT"
+  },
+  {
+    "date": "2027-01-16",
+    "time": "10:00",
+    "week": "2027-W03",
+    "slug": "kubernetes-pod",
+    "video": "videos/kubernetes-pod.mp4",
+    "youtube": {
+      "title": "What Do Containers in a Kubernetes Pod Share?",
+      "description": "Containers in one Pod share a network, so they can reach each other on localhost.\nTheir filesystems and process lists are separate by default. Shared files need a volume mounted in each container.\nMusic: WTC Book 1: Fugue No. 8 in D-sharp minor, BWV 853 — Kimiko Ishizaka, CC0.\n#Shorts #Kubernetes #DevOps #Containers"
+    },
+    "tiktok": "One Pod, two containers, one IP. See what they share and what stays separate.\n\nMusic: WTC Book 1: Fugue No. 8 in D-sharp minor, BWV 853 — Kimiko Ishizaka, CC0.\n\n#Kubernetes #DevOps #Containers #LearnIT",
+    "instagram": "A Pod is a small shared home for containers that need to work closely together.\n\nMusic: WTC Book 1: Fugue No. 8 in D-sharp minor, BWV 853 — Kimiko Ishizaka, CC0.\n\n#Kubernetes #DevOps #Containers #LearnIT"
+  },
+  {
+    "date": "2027-01-17",
+    "time": "10:00",
+    "week": "2027-W03",
+    "slug": "load-balancer-rr",
+    "video": "videos/load-balancer-rr.mp4",
+    "youtube": {
+      "title": "Round Robin: How a Load Balancer Takes Turns",
+      "description": "A load balancer spreads requests over several servers. Round robin gives them turns, based on their weights.\nThis demo uses nginx. Failure handling and health checks depend on the product and its settings.\nMusic: WTC Book 1: Fugue No. 10 in E minor, BWV 855 — Kimiko Ishizaka, CC0.\n#Shorts #DevOps #Networking #WebDevelopment"
+    },
+    "tiktok": "Six requests, three servers, then one server stops. Watch round robin handle it in nginx.\n\nMusic: WTC Book 1: Fugue No. 10 in E minor, BWV 855 — Kimiko Ishizaka, CC0.\n\n#DevOps #Networking #Nginx #LearnIT",
+    "instagram": "A, B, C, repeat. Simple turn-taking, plus what happens when one server stops.\n\nMusic: WTC Book 1: Fugue No. 10 in E minor, BWV 855 — Kimiko Ishizaka, CC0.\n\n#DevOps #Networking #Nginx #LearnIT"
+  },
+  {
+    "date": "2027-01-18",
+    "time": "10:00",
+    "week": "2027-W03",
+    "slug": "git-rebase",
+    "video": "videos/git-rebase.mp4",
+    "youtube": {
+      "title": "What Does git rebase Do to Your Commits?",
+      "description": "git rebase replays your branch's commits on a new base. The replayed commits get new IDs.\nAvoid rebasing commits that other people may have built on.\nMusic: WTC Book 1: Fugue No. 13 in F-sharp major, BWV 858 — Kimiko Ishizaka, CC0.\n#Shorts #Git #VersionControl #Programming"
+    },
+    "tiktok": "Rebase does not just move commits. Watch two real ones get new IDs.\n\nMusic: WTC Book 1: Fugue No. 13 in F-sharp major, BWV 858 — Kimiko Ishizaka, CC0.\n\n#Git #VersionControl #Programming #LearnToCode",
+    "instagram": "Merge joins two lines of history. Rebase replays one on top of the other.\n\nMusic: WTC Book 1: Fugue No. 13 in F-sharp major, BWV 858 — Kimiko Ishizaka, CC0.\n\n#Git #VersionControl #Programming #LearnToCode"
+  },
+  {
+    "date": "2027-01-19",
+    "time": "10:00",
+    "week": "2027-W03",
+    "slug": "ci-cd-pipeline",
+    "video": "videos/ci-cd-pipeline.mp4",
+    "youtube": {
+      "title": "CI/CD: From git push to a Running App",
+      "description": "One example pipeline: a push starts a build, tests run, and a failed test blocks the deploy job.\nContinuous Delivery keeps changes ready to release. Continuous Deployment releases them automatically.\nMusic: WTC Book 1: Fugue No. 17 in A-flat major, BWV 862 — Kimiko Ishizaka, CC0.\n#Shorts #DevOps #CICD #Programming"
+    },
+    "tiktok": "Follow one git push through build, test and deploy, and see where a failed test stops it.\n\nMusic: WTC Book 1: Fugue No. 17 in A-flat major, BWV 862 — Kimiko Ishizaka, CC0.\n\n#DevOps #CICD #Programming #LearnToCode",
+    "instagram": "Build, test, deploy: an example pipeline from push to rollout.\n\nMusic: WTC Book 1: Fugue No. 17 in A-flat major, BWV 862 — Kimiko Ishizaka, CC0.\n\n#DevOps #CICD #Programming #LearnToCode"
+  },
+  {
+    "date": "2027-01-20",
+    "time": "10:00",
+    "week": "2027-W03",
+    "slug": "os-process-vs-thread",
+    "video": "videos/os-process-vs-thread.mp4",
+    "youtube": {
+      "title": "Process vs Thread: What Is Shared?",
+      "description": "Threads in one process share its memory. Separate processes normally have separate memory.\nSee a real Linux test where a thread and a child process each change the same variable.\nMusic: WTC Book 1: Fugue No. 23 in B major, BWV 868 — Kimiko Ishizaka, CC0.\n#Shorts #Programming #OperatingSystems #Linux"
+    },
+    "tiktok": "A thread changes a value, then a child process does. Only one change shows up in the parent.\n\nMusic: WTC Book 1: Fugue No. 23 in B major, BWV 868 — Kimiko Ishizaka, CC0.\n\n#Programming #OperatingSystems #Linux #LearnToCode",
+    "instagram": "Shared memory or separate memory: the key difference between threads and processes.\n\nMusic: WTC Book 1: Fugue No. 23 in B major, BWV 868 — Kimiko Ishizaka, CC0.\n\n#Programming #OperatingSystems #Linux #LearnToCode"
+  },
+  {
+    "date": "2027-01-21",
+    "time": "10:00",
+    "week": "2027-W04",
+    "slug": "cpu-fetch-decode",
+    "video": "videos/cpu-fetch-decode.mp4",
+    "youtube": {
+      "title": "How Does a CPU Read an Instruction?",
+      "description": "Follow nine bytes of x86-64 machine code: fetch, decode, execute, move on.\nThis is a simple model. Modern CPUs work on many instructions at the same time.\nMusic: Open Goldberg Variations, BWV 988: Variatio 1 — Kimiko Ishizaka, CC0.\n#Shorts #Computers #CPU #Programming"
+    },
+    "tiktok": "Nine bytes make a CPU put 5 in a register, add 3 and return. Here is how it reads them.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 1 — Kimiko Ishizaka, CC0.\n\n#Computers #CPU #Programming #LearnIT",
+    "instagram": "Machine code, one instruction at a time: fetch, decode, execute.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 1 — Kimiko Ishizaka, CC0.\n\n#Computers #CPU #Programming #LearnIT"
+  },
+  {
+    "date": "2027-01-22",
+    "time": "10:00",
+    "week": "2027-W04",
+    "slug": "cache-hierarchy",
+    "video": "videos/cache-hierarchy.mp4",
+    "youtube": {
+      "title": "Why Does a CPU Need Caches?",
+      "description": "Caches keep copies of recently used memory close to the CPU core, a whole line at a time.\nSizes and speeds shown are from one PC and vary between CPUs.\nMusic: Open Goldberg Variations, BWV 988: Variatio 4 — Kimiko Ishizaka, CC0.\n#Shorts #Computers #CPU #Performance"
+    },
+    "tiktok": "Ask for one number and the CPU usually brings its neighbours too. That is a cache line.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 4 — Kimiko Ishizaka, CC0.\n\n#Computers #CPU #Performance #LearnIT",
+    "instagram": "L1, L2, L3 and RAM: why data that sits close together is often faster to read.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 4 — Kimiko Ishizaka, CC0.\n\n#Computers #CPU #Performance #LearnIT"
+  },
+  {
+    "date": "2027-01-23",
+    "time": "10:00",
+    "week": "2027-W04",
+    "slug": "virtual-memory-mapping",
+    "video": "videos/virtual-memory-mapping.mp4",
+    "youtube": {
+      "title": "Virtual Memory: What Is Behind an Address?",
+      "description": "A program's addresses are virtual. Page tables map them, page by page, to physical memory.\nOn Linux, a new page often gets real memory only when it is first used.\nMusic: Open Goldberg Variations, BWV 988: Variatio 6 (Canone alla Seconda) — Kimiko Ishizaka, CC0.\n#Shorts #Linux #OperatingSystems #Computers"
+    },
+    "tiktok": "The address your program sees is not the address in RAM. Here is the translation.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 6 (Canone alla Seconda) — Kimiko Ishizaka, CC0.\n\n#Linux #OperatingSystems #Computers #LearnIT",
+    "instagram": "Virtual pages, physical frames, the TLB and a page fault in under a minute.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 6 (Canone alla Seconda) — Kimiko Ishizaka, CC0.\n\n#Linux #OperatingSystems #Computers #LearnIT"
+  },
+  {
+    "date": "2027-01-24",
+    "time": "10:00",
+    "week": "2027-W04",
+    "slug": "branch-prediction",
+    "video": "videos/branch-prediction.mp4",
+    "youtube": {
+      "title": "Why Does a CPU Guess Which Way an if Goes?",
+      "description": "A pipelined CPU predicts branches so it can keep working before the answer is ready.\nThe timings come from one test on one PC. Your compiler may remove the branch completely.\nMusic: Open Goldberg Variations, BWV 988: Variatio 11 — Kimiko Ishizaka, CC0.\n#Shorts #CPU #Programming #Performance"
+    },
+    "tiktok": "Sorting the data made one test loop about 5 times faster. The reason: branch prediction. The catch is at the end.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 11 — Kimiko Ishizaka, CC0.\n\n#CPU #Programming #Performance #LearnToCode",
+    "instagram": "Right guess: keep going. Wrong guess: throw work away.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 11 — Kimiko Ishizaka, CC0.\n\n#CPU #Programming #Performance #LearnToCode"
+  },
+  {
+    "date": "2027-01-25",
+    "time": "10:00",
+    "week": "2027-W04",
+    "slug": "pipeline-stall",
+    "video": "videos/pipeline-stall.mp4",
+    "youtube": {
+      "title": "What Is a CPU Pipeline Stall?",
+      "description": "In a classic five-stage pipeline, using a value right after loading it costs one cycle.\nPutting independent work in between fills the gap. Real modern CPUs are more complex.\nMusic: Open Goldberg Variations, BWV 988: Variatio 27 (Canone alla Nona) — Kimiko Ishizaka, CC0.\n#Shorts #CPU #ComputerScience #Programming"
+    },
+    "tiktok": "Same three instructions, a different order, one cycle saved. This is a pipeline stall.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 27 (Canone alla Nona) — Kimiko Ishizaka, CC0.\n\n#CPU #ComputerScience #Programming #LearnIT",
+    "instagram": "A bubble in the pipeline, and how reordering fills it.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 27 (Canone alla Nona) — Kimiko Ishizaka, CC0.\n\n#CPU #ComputerScience #Programming #LearnIT"
+  },
+  {
+    "date": "2027-01-26",
+    "time": "10:00",
+    "week": "2027-W04",
+    "slug": "cpu-core-vs-hyperthread",
+    "video": "videos/cpu-core-vs-hyperthread.mp4",
+    "youtube": {
+      "title": "CPU Core vs Hyper-Thread: What Is Shared?",
+      "description": "With SMT, such as Intel Hyper-Threading, one physical core can run more than one thread.\nThe two test loops are extreme, tiny examples from one PC. Real programs vary, so measure yours.\nMusic: Open Goldberg Variations, BWV 988: Variatio 30 (Quodlibet) — Kimiko Ishizaka, CC0.\n#Shorts #CPU #Computers #Performance"
+    },
+    "tiktok": "Two threads on one core: one test got about 1.8 times the work done, another got less done than with one thread.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 30 (Quodlibet) — Kimiko Ishizaka, CC0.\n\n#CPU #Computers #Performance #LearnIT",
+    "instagram": "16 logical CPUs, 8 physical cores: what the two numbers mean.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 30 (Quodlibet) — Kimiko Ishizaka, CC0.\n\n#CPU #Computers #Performance #LearnIT"
+  },
+  {
+    "date": "2027-01-27",
+    "time": "10:00",
+    "week": "2027-W04",
+    "slug": "endianness",
+    "video": "videos/endianness.mp4",
+    "youtube": {
+      "title": "Little-Endian: Why Do the Bytes Look Backwards?",
+      "description": "A number that is several bytes long can be stored low byte first or high byte first.\nx86 computers use little-endian. IPv4 headers use big-endian, also called network byte order.\nMusic: Open Goldberg Variations, BWV 988: Variatio 16 (Ouverture) — Kimiko Ishizaka, CC0.\n#Shorts #Programming #Computers #Networking"
+    },
+    "tiktok": "Look at 0x12345678 in memory on an x86 PC and you find 78 56 34 12. Here is why that is fine.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 16 (Ouverture) — Kimiko Ishizaka, CC0.\n\n#Programming #Computers #Networking #LearnToCode",
+    "instagram": "Little-endian and big-endian: same number, two byte orders.\n\nMusic: Open Goldberg Variations, BWV 988: Variatio 16 (Ouverture) — Kimiko Ishizaka, CC0.\n\n#Programming #Computers #Networking #LearnToCode"
+  },
+  {
+    "date": "2027-01-28",
+    "time": "10:00",
+    "week": "2027-W05",
+    "slug": "heap-insert-extract",
+    "video": "videos/heap-insert-extract.mp4",
+    "youtube": {
+      "title": "Max-Heap: How the Biggest Number Stays on Top",
+      "description": "Insert 9, then remove it: watch a binary max-heap repair itself with a few swaps.\nA heap keeps the largest value at the top, but the array is not fully sorted.\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 4 in C-sharp minor, BWV 849 — Kimiko Ishizaka, CC0.\n#Shorts #Algorithms #DataStructures #Programming"
+    },
+    "tiktok": "The biggest number stays on top without sorting everything. This is a max-heap.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 4 in C-sharp minor, BWV 849 — Kimiko Ishizaka, CC0.\n\n#Algorithms #DataStructures #Programming #LearnIT",
+    "instagram": "Add at the end and move up. Remove the top and move down.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 4 in C-sharp minor, BWV 849 — Kimiko Ishizaka, CC0.\n\n#Algorithms #DataStructures #Programming #LearnIT"
+  },
+  {
+    "date": "2027-01-29",
+    "time": "10:00",
+    "week": "2027-W05",
+    "slug": "quick-sort-partition",
+    "video": "videos/quick-sort-partition.mp4",
+    "youtube": {
+      "title": "Quicksort: What Does One Partition Do?",
+      "description": "Pick a pivot, move the smaller numbers left, and the pivot lands in its final place. Then repeat on both sides.\nThis uses the Lomuto partition with the last item as pivot. Other versions of quicksort partition differently.\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 12 in F minor, BWV 857 — Kimiko Ishizaka, CC0.\n#Shorts #Algorithms #Sorting #Programming"
+    },
+    "tiktok": "One pass puts the pivot exactly where it belongs. That is the heart of quicksort.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 12 in F minor, BWV 857 — Kimiko Ishizaka, CC0.\n\n#Algorithms #Sorting #Programming #LearnIT",
+    "instagram": "Partition, then repeat: quicksort on five numbers.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 12 in F minor, BWV 857 — Kimiko Ishizaka, CC0.\n\n#Algorithms #Sorting #Programming #LearnIT"
+  },
+  {
+    "date": "2027-01-30",
+    "time": "10:00",
+    "week": "2027-W05",
+    "slug": "dijkstra-shortest-path",
+    "video": "videos/dijkstra-shortest-path.mp4",
+    "youtube": {
+      "title": "How Does Dijkstra Find the Shortest Path?",
+      "description": "Four points, four roads: always finish the closest open point next, then update its neighbours.\nDijkstra's algorithm requires that no edge has a negative cost.\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 14 in F-sharp minor, BWV 859 — Kimiko Ishizaka, CC0.\n#Shorts #Algorithms #Graphs #Programming"
+    },
+    "tiktok": "The path with more steps can still be cheaper. Watch Dijkstra find it.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 14 in F-sharp minor, BWV 859 — Kimiko Ishizaka, CC0.\n\n#Algorithms #Graphs #Programming #LearnIT",
+    "instagram": "Dijkstra's algorithm on a four-point graph, one update at a time.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 14 in F-sharp minor, BWV 859 — Kimiko Ishizaka, CC0.\n\n#Algorithms #Graphs #Programming #LearnIT"
+  },
+  {
+    "date": "2027-01-31",
+    "time": "10:00",
+    "week": "2027-W05",
+    "slug": "binary-search-tree-insert",
+    "video": "videos/binary-search-tree-insert.mp4",
+    "youtube": {
+      "title": "Binary Search Tree: Where Does a New Number Go?",
+      "description": "Compare, go left or right, and stop at the first empty spot.\nThe order of insertion changes the shape. Self-balancing trees are designed to prevent long chains.\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 18 in G-sharp minor, BWV 863 — Kimiko Ishizaka, CC0.\n#Shorts #Algorithms #DataStructures #Programming"
+    },
+    "tiktok": "Same five numbers, two very different trees. The insertion order decides.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 18 in G-sharp minor, BWV 863 — Kimiko Ishizaka, CC0.\n\n#Algorithms #DataStructures #Programming #LearnIT",
+    "instagram": "Building a binary search tree, one number at a time.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 18 in G-sharp minor, BWV 863 — Kimiko Ishizaka, CC0.\n\n#Algorithms #DataStructures #Programming #LearnIT"
+  },
+  {
+    "date": "2027-02-01",
+    "time": "10:00",
+    "week": "2027-W05",
+    "slug": "token-count-gpt",
+    "video": "videos/token-count-gpt.mp4",
+    "youtube": {
+      "title": "How Many Tokens Is the Text Hello, world!",
+      "description": "With OpenAI's o200k_base tokenizer, Hello, world! is 4 tokens. A word can be one token or several.\nThis counts the plain text only. A chat API request adds some extra tokens, and other models may use other tokenizers.\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 20 in A minor, BWV 865 — Kimiko Ishizaka, CC0.\n#Shorts #AI #LLM #Programming"
+    },
+    "tiktok": "Tokens are not words. Here is how one OpenAI tokenizer splits a short sentence.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 20 in A minor, BWV 865 — Kimiko Ishizaka, CC0.\n\n#AI #LLM #Programming #LearnIT",
+    "instagram": "Hello, world! in tokens: pieces, spaces and numbers.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 20 in A minor, BWV 865 — Kimiko Ishizaka, CC0.\n\n#AI #LLM #Programming #LearnIT"
+  },
+  {
+    "date": "2027-02-02",
+    "time": "10:00",
+    "week": "2027-W05",
+    "slug": "embedding-dot-product",
+    "video": "videos/embedding-dot-product.mp4",
+    "youtube": {
+      "title": "How Can a Computer Compare Two Embeddings?",
+      "description": "Multiply the numbers in pairs and add them up: the dot product. Divide by both lengths to get cosine similarity.\nThe vectors here are tiny made-up examples. Real embeddings come from a model and are much longer.\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 22 in B-flat minor, BWV 867 — Kimiko Ishizaka, CC0.\n#Shorts #AI #MachineLearning #Math"
+    },
+    "tiktok": "Comparing two embeddings can start with a few multiplications. Here it is with tiny made-up vectors.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 22 in B-flat minor, BWV 867 — Kimiko Ishizaka, CC0.\n\n#AI #MachineLearning #Math #LearnIT",
+    "instagram": "Dot product and cosine similarity, drawn as arrows. Toy numbers, real math.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 22 in B-flat minor, BWV 867 — Kimiko Ishizaka, CC0.\n\n#AI #MachineLearning #Math #LearnIT"
+  },
+  {
+    "date": "2027-02-03",
+    "time": "10:00",
+    "week": "2027-W05",
+    "slug": "gradient-descent-step",
+    "video": "videos/gradient-descent-step.mp4",
+    "youtube": {
+      "title": "Gradient Descent: One Step, With Real Numbers",
+      "description": "Find the slope, step the other way, repeat. With a learning rate of 0.1 the loss falls from 9 to 5.76.\nThis is a one-number toy example. Real model training adjusts many numbers.\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 24 in B minor, BWV 869 — Kimiko Ishizaka, CC0.\n#Shorts #AI #MachineLearning #Math"
+    },
+    "tiktok": "One slope, one small step, a lower loss. And what happens when the step is too big.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 24 in B minor, BWV 869 — Kimiko Ishizaka, CC0.\n\n#AI #MachineLearning #Math #LearnIT",
+    "instagram": "Gradient descent as a ball on a curve, with every number shown.\n\nMusic: Well-Tempered Clavier, Book 1: Fugue No. 24 in B minor, BWV 869 — Kimiko Ishizaka, CC0.\n\n#AI #MachineLearning #Math #LearnIT"
   }
 ]
